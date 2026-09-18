@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# 実際のマニュアル等(機密情報を含む可能性があるため公開リポジトリには含めない)
+docs/*
+!docs/.gitkeep

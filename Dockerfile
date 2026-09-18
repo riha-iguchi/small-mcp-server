@@ -5,6 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY server.py .
+COPY server.py file_search.py .
+COPY docs ./docs
 
 CMD ["python", "server.py"]
